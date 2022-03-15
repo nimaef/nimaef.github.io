@@ -1,53 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"
-    ><title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
 
 </head>
+
 <body>
+  <container class="bg1">
     <nav class="navbar navbar-expand navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Nima Ecija y Fernández</a>
-        <button class="navbar-toggler" type="button"   >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link btn btn-three" href="#">Home<span ></span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link btn btn-three" href="#">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link btn btn-three" href="#">About me</a>
-            </li>
-          </ul>
-          <span class="navbar-text">
-            
-          </span>
-        </div>
+      <a class="navbar-brand" href="">Nima Ecija y Fernández</a>
+      <button class=" navbar-toggler" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link btn btn-three" href="#">Home<span></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-three" href="#">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-three" href="#">About me</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+
+        </span>
+      </div>
     </nav>
-    
-    <div>
-        <h2 class="hoofd">
-          I am Nima Ecija y Fernández<br>
-          Software Developer from Roermond
-        </h2>
-        
-    </div>
+  </container>
 
-    <div class="mePhoto">
-      <img src="assets/mePhoto.jpg">
-    </div>
+  <div class="icons">
+    <a class=" linkedinicon fab fa-linkedin" href="https://www.linkedin.com/in/nima-ecija-y-fern%C3%A1ndez-110545181/"
+      style="color: white;"></a>
+  </div>
 
-    <div>
-      
-    </div>
+  <header>
 
+    <div class="overlay"></div>
+
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="video-container">
+      <source src="assets/Pexels Videos 2699.mp4" type="video/mp4">
+    </video>
+
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center custom-margin-top">
+        <div class="w-100 text-white">
+          <h1 class="display-3">Nima Ecija y Fernández</h1>
+          <p class="lead mb-0">Software Developer</p>
+        </div>
+      </div>
+    </div>
+  </header>
 </body>
+
 </html>

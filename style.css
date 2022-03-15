@@ -1,5 +1,6 @@
 body{
-    background-color: darkslategray;
+    background-color: rgb(34, 34, 34);
+    color: #FFF;
 }
 
 .hoofd{
@@ -8,10 +9,31 @@ body{
 }
 
 .mePhoto{
-    position: fixed;
+    position: absolute;
     margin-left: 1000px;
     height: 250px;
     width: 300px;
+}
+
+.icons{
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.leftside{
+    width: 100vh; 
+    float: left; 
+    height: 100vh;
+    margin-top: 100px;
+    margin-left: 75px;
+}
+
+.rightside{
+    width: 80vh; 
+    float: right; 
+    height: 10vh; 
+    margin-top: 100px;
 }
 
 
@@ -21,7 +43,7 @@ body{
   
   
   ::-webkit-scrollbar-track {
-    background: darkslategrey; 
+    background: rgb(34, 34, 34); 
   }
    
  
@@ -31,7 +53,7 @@ body{
   
   
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(52, 52, 60); 
+    background: #343A40; 
   }
   
   /* navbar buttons*/
@@ -81,3 +103,22 @@ body{
     opacity: 1;
     transform: scale(1,1);
   }
+
+  .video-container {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.custom-margin-top {
+    margin-top: 20%;
+}
