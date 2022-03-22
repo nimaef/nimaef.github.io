@@ -134,5 +134,22 @@ body{
 }
 
 .work-bg{
-  background-color: ;
+  background-color: black;
+}
+
+.name{
+  margin-top: 150px;
+  margin-left: -50px;
+  
+}
+
+.namePhoto{
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.soon{
+  float: right;
+  margin-top: 250px;
+  margin-right: 50px;
 }
