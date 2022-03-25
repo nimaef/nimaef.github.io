@@ -8,6 +8,7 @@ body{
     margin-top: 10%;
 }
 
+/* Photo index */
 .mePhoto{
     position: absolute;
     margin-left: 1000px;
@@ -15,12 +16,14 @@ body{
     width: 300px;
 }
 
+/* icon position */
 .icons{
     float: right;
     margin-top: 5px;
     margin-right: 20px;
 }
 
+/* index position sides */
 .leftside{
     width: 100vh; 
     float: left; 
@@ -36,7 +39,7 @@ body{
     margin-top: 100px;
 }
 
-
+/* scrollbar */
 ::-webkit-scrollbar {
     width: 15px;
   }
@@ -66,6 +69,7 @@ body{
     cursor: pointer;
   }
 
+  /* buttons */
   .btn-three {
     color: #FFF;
     transition: all 0.5s;
@@ -104,6 +108,7 @@ body{
     transform: scale(1,1);
   }
 
+  /* Background video index */
   .video-container {
     position: absolute;
   top: 50%;
@@ -124,6 +129,7 @@ body{
     margin-top: 20%;
 }
 
+/* Navbar */
 .nav{
   position: absolute;
   
@@ -148,8 +154,24 @@ body{
   margin-left: 100px;
 }
 
+/* work in progress text */
 .soon{
   float: right;
   margin-top: 250px;
   margin-right: 50px;
+}
+
+/* rows for showing work */
+.myWork{
+  float: left;
+  margin-left: 50px;
+}
+
+img.size{
+  width: 550px;
+  height: auto;
+}
+
+.workText{
+  margin-right: 150px;
 }
