@@ -1,6 +1,7 @@
 body{
     background-color: rgb(34, 34, 34);
     color: #FFF;
+    font-family: 'Oswald', sans-serif;
 }
 
 .hoofd{
@@ -140,7 +141,7 @@ body{
 }
 
 .work-bg{
-  background-color: black;
+  background-color: rgb(22, 22, 22);
 }
 
 .name{
@@ -174,4 +175,13 @@ img.size{
 
 .workText{
   margin-right: 150px;
+}
+
+.works{
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.worktitle{
+  margin-left: 50px;
 }
