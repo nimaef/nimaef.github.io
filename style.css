@@ -1,4 +1,4 @@
-
+/* CSS RESET */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -45,24 +45,16 @@ table {
 /* end css reset */
 
 
+html{
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
 body{
     background-color: rgb(34, 34, 34);
     color: #FFF;
     font-family: 'Oswald', sans-serif;
     overflow-x: hidden;
-}
-
-.hoofd{
-    margin-left: 10%;
-    margin-top: 10%;
-}
-
-/* Photo index */
-.mePhoto{
-    position: absolute;
-    margin-left: 1000px;
-    height: 250px;
-    width: 300px;
 }
 
 /* icon position */
@@ -72,23 +64,7 @@ body{
     margin-right: 20px;
 }
 
-/* index position sides */
-.leftside{
-    width: 100vh; 
-    float: left; 
-    height: 100vh;
-    margin-top: 100px;
-    margin-left: 75px;
-}
-
-.rightside{
-    width: 80vh; 
-    float: right; 
-    height: 10vh; 
-    margin-top: 100px;
-}
-
-/* scrollbar */
+/* custom scrollbar */
 ::-webkit-scrollbar {
     width: 15px;
   }
@@ -108,8 +84,8 @@ body{
     background: #343A40; 
   }
   
-  /* navbar buttons*/
 
+  /* navbar buttons*/
   .btn {
     line-height: 30px;
     height: 50px;
@@ -181,30 +157,43 @@ body{
 /* Navbar */
 .nav{
   position: absolute;
-  
 }
 
 .bg-dark{
   background-color: #00000000 !important;
 }
 
+/* Work background */
 .work-bg{
   background: linear-gradient(
     to top right,
     black 0%,
     black 50%,
-    grey 50%,
-    grey 100%
+    rgb(97, 97, 97) 50%,
+    rgb(97, 97, 97) 100%
   );
-  /* background-color: rgb(22, 22, 22); */
+
+    /* parallax scrolling background */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .name{
   margin-top: 150px;
-  margin-left: -50px;
-  
+  margin-left: -30%; 
 }
 
+.desc{
+  margin-top: 100px;
+  margin-left: -30%;
+}
+
+p.textdesc{
+  height: 150%;
+  font-size: 150%;
+}
 
 /* text under name */
 .sd{
@@ -216,10 +205,17 @@ body{
   margin-left: 100px;
 }
 
+.fotome{
+  margin-left: 30%;
+  width: 69%;
+  border-radius: 8%;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
 /* work in progress text */
 .soon{
   float: right;
-  margin-top: 250px;
+  margin-top: 10%;
   margin-right: 50px;
 }
 
@@ -230,17 +226,23 @@ body{
 }
 
 img.size{
-  width: 550px;
+  width: 70%;
   height: auto;
 }
 
 .workText{
-  margin-right: 150px;
+  margin-right: 100px;
+  margin-top: 10%;
 }
 
 .works{
   margin-top: 50px;
-  margin-left: 40px;
+  margin-left: 50px;
+  background-color: grey;
+  border-radius: 10px;
+  width: 85%;
+  color: white;
+  box-shadow: 3px 3px black;
 }
 
 .worktitle{
@@ -264,7 +266,7 @@ hr{
 }
 
 .textsize{
-  font-size: 25px;
+  font-size: 150%;
 }
 
 .WAI{
