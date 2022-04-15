@@ -21,36 +21,38 @@
 
 <body>
   <container class="bg1">
-    <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <div id="topheader">
+      <nav class="navbar navbar-expand navbar-dark bg-dark">
 
-      <a class="navbar-brand" href="">Nima Ecija y Fernández</a>
+        <a class="navbar-brand" href="">Nima Ecija y Fernández</a>
 
-      <button class=" navbar-toggler" type="button">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button class=" navbar-toggler" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link btn btn-three" href="index.html">Home<span></span></a>
-          </li>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link btn btn-three" href="index.html">Home<span></span></a>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link btn btn-three" href="pages/work.html">Work</a>
-          </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-three" href="pages/work.html">Work</a>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link btn btn-three" href="pages/AboutMe.html">About me</a>
-          </li>
-        </ul>
-        <span class="navbar-text">
-          <div class="icons">
-            <a class=" linkedinicon fab fa-linkedin" href="https://www.linkedin.com/in/nima-ecija-y-fern%C3%A1ndez-110545181/"
-              style="color: white;"></a>
-          </div>
-        </span>
-      </div>
-    </nav>
+            <li class="nav-item">
+              <a class="nav-link btn btn-three" href="pages/AboutMe.html">About me</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <div class="icons">
+              <a class=" linkedinicon fab fa-linkedin" href="https://www.linkedin.com/in/nima-ecija-y-fern%C3%A1ndez-110545181/"
+                style="color: white;"></a>
+            </div>
+          </span>
+        </div>
+      </nav>
+    </div>
     <hr>
   </container>
 
@@ -62,13 +64,15 @@
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="video-container">
       <source src="assets/BackgroundVid.mp4" type="video/mp4">
     </video>
+    
+  </header>
 
     <div class="container">
       <div class="row">
         <div class="col">
-          <div class=" w- text-white name">
-            <h1 class="display-3">Nima <br> Ecija y Fernández</h1>
-            <p class="lead mb-0 sd">Software Developer</p>
+          <div class="name">
+            <h1 class="nima">Nima <br> Ecija y Fernández</h1>
+            <p class="sd">Software Developer</p>
           </div>
           <div>
             <p class="textdesc">Welcome on my Portfolio site. Here you will find who i am and what i have made till now.
@@ -83,13 +87,14 @@
         </div>
       </div>
     </div>
+  
 
     <div class="soon">
       <p>This site is a work in progress and still in development.</p>
     </div>
 
 
-  </header>
+  <script src="scripts.js"></script>
 </body>
 
 </html>

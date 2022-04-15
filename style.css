@@ -55,6 +55,7 @@ body{
     color: #FFF;
     font-family: 'Oswald', sans-serif;
     overflow-x: hidden;
+    text-shadow: 5px 5px 10px black;
 }
 
 /* icon position */
@@ -182,14 +183,16 @@ transform: translateX(-50%) translateY(-50%);
 
 .name{
   margin-top: 150px;
-  margin-left: -30%; 
+  margin-left: -50%;
+  margin-right: 50%;
 }
 
 p.textdesc{
   height: 150%;
   font-size: 150%;
-  margin-top: 15vh;
-  margin-left: -30%;
+  margin-top: 10%;
+  margin-left: -50%;
+  margin-right: 30%;
 }
 
 /* text under name */
@@ -197,23 +200,26 @@ p.textdesc{
   margin-top: 10px;
 }
 
+.nima{
+  font-size: 350%;
+}
+
 .namePhoto{
-  margin-top: 150px;
-  margin-left: 100px;
+  margin-top: 30%;
+  margin-left: 30%;
 }
 
 .fotome{
   margin-left: 30%;
-  width: 69%;
+  width: 80%;
   border-radius: 8%;
   box-shadow: 2px 2px 2px 2px black;
 }
 
 /* work in progress text */
 .soon{
-  float: right;
-  margin-top: 20vh;
-  margin-right: 10vh;
+  margin-top: 10vh;
+  margin-left: 10vh;
 }
 
 /* rows for showing work */
@@ -230,12 +236,17 @@ img.size{
 }
 
 .workText{
-  margin-right: 100px;
+  margin-right: 10%;
   margin-top: 5%;
 }
 
 .langUsed{
+  margin-top:  10%;
+  margin-bottom: 3%;
+}
 
+.workTitle{
+  margin-top: 3%;
 }
 
 .works{
@@ -275,6 +286,25 @@ hr{
 }
 
 .WAI{
-  margin-left: 50px;
-  margin-top: 50  px;
+  font-size: 350%;
+}
+
+/* columns about me */
+.containerColls{
+  width: 900px;
+  margin: 0 auto;
+}
+.main-column{
+  float: left;
+  margin-top: 3%;
+  margin-left: -3%;
+  width: 660px;
+  border-left: 240px solid transparent;
+}
+.sidebar{
+  float: right;
+  width: 500px;
+  margin-right: 25%;
+  margin-top: 5%;
+  position: relative;
 }
