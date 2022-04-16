@@ -137,18 +137,19 @@ body{
 /* Background video index */
 .video-container {
   position: absolute;
-top: 50%;
-left: 50%;
-min-width: 100%;
-max-height: 100%;
-object-fit: cover;
-width: 100vh;
-height: 100vh;
-z-index: -1;
--ms-transform: translateX(-50%) translateY(-50%);
--moz-transform: translateX(-50%) translateY(-50%);
--webkit-transform: translateX(-50%) translateY(-50%);
-transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  width: 100vh;
+  height: 100vh;
+  z-index: -1;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0.5;
 }
 
 .custom-margin-top {
@@ -168,10 +169,10 @@ transform: translateX(-50%) translateY(-50%);
 .work-bg{
   background: linear-gradient(
     to top right,
-    #F79071 0%,
-    #F79071 50%,
-    #16817A 50%,
-    #16817A 100%
+    #041C32 0%,
+    #041C32 50%,
+    #064663 50%,
+    #064663 100%
   );
 
     /* parallax scrolling background */
@@ -182,17 +183,24 @@ transform: translateX(-50%) translateY(-50%);
 }
 
 .name{
-  margin-top: 150px;
-  margin-left: -50%;
-  margin-right: 50%;
+  margin-top: 20vh;
+  width: fit-content;
+  margin-left: 10vh;
+}
+
+container1{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 p.textdesc{
   height: 150%;
   font-size: 150%;
-  margin-top: 10%;
-  margin-left: -50%;
-  margin-right: 30%;
+  margin-top: 12vh;
+  margin-left: 10vh;
 }
 
 /* text under name */
@@ -210,10 +218,10 @@ p.textdesc{
 }
 
 .fotome{
-  margin-left: 30%;
-  width: 80%;
+  width: 55%;
   border-radius: 8%;
   box-shadow: 2px 2px 2px 2px black;
+  margin-top: -8vh;
 }
 
 /* work in progress text */
@@ -233,6 +241,7 @@ img.size{
   height: auto;
   margin: 10px;
   border-radius: 15px;
+  box-shadow: 3px 3px black;
 }
 
 .workText{
@@ -252,9 +261,9 @@ img.size{
 .works{
   margin-top: 50px;
   margin-left: 50px;
-  background-color: #FA744F;
+  background-color: #04293A;
   border-radius: 10px;
-  border: 3px solid #024249;
+  border: 3px solid #ECB365;
   width: 90%;
   color: white;
   box-shadow: black 4px 4px;
@@ -298,7 +307,7 @@ hr{
   float: left;
   margin-top: 3%;
   margin-left: -3%;
-  width: 660px;
+  width: 50vw;
   border-left: 240px solid transparent;
 }
 .sidebar{
@@ -307,4 +316,17 @@ hr{
   margin-right: 25%;
   margin-top: 5%;
   position: relative;
+}
+
+.Abtme{
+  margin-top: 10vh;
+  font-size: 150%;
+}
+
+.fotome2{
+  width: 70%;
+  border-radius: 8%;
+  border: 3px solid #ECB365;
+  box-shadow: 2px 2px 2px 2px black;
+  margin-left: 20vw;
 }
