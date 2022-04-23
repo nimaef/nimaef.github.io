@@ -149,7 +149,7 @@ body{
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .custom-margin-top {
@@ -206,6 +206,7 @@ p.textdesc{
 /* text under name */
 .sd{
   margin-top: 10px;
+  color: #ECB365;
 }
 
 .nima{
@@ -219,6 +220,7 @@ p.textdesc{
 
 .fotome{
   width: 55%;
+  border: 3px solid #ECB365;
   border-radius: 8%;
   box-shadow: 2px 2px 2px 2px black;
   margin-top: -8vh;
@@ -228,6 +230,7 @@ p.textdesc{
 .soon{
   margin-top: 10vh;
   margin-left: 10vh;
+  color: #ECB365;
 }
 
 /* rows for showing work */
@@ -251,6 +254,11 @@ img.size{
 
 .langUsed{
   margin-top:  10%;
+  margin-bottom: 3%;
+}
+
+.langUsed2{
+  margin-top: 23%;
   margin-bottom: 3%;
 }
 
@@ -284,7 +292,7 @@ h1{
 }
 
 hr{
-  background-color: white;
+  background-color: #ECB365;
   height: 3px;
   margin-top: -5px;
   width: 100%;
@@ -312,7 +320,8 @@ hr{
 }
 .sidebar{
   float: right;
-  width: 500px;
+  width: 25vw;
+  height: 70vh;
   margin-right: 25%;
   margin-top: 5%;
   position: relative;
@@ -324,9 +333,9 @@ hr{
 }
 
 .fotome2{
-  width: 70%;
+  width: 75%;
   border-radius: 8%;
   border: 3px solid #ECB365;
   box-shadow: 2px 2px 2px 2px black;
-  margin-left: 20vw;
+  margin-left: 10vw;
 }
