@@ -228,7 +228,7 @@ p.textdesc{
 
 /* work in progress text */
 .soon{
-  margin-top: 10vh;
+  margin-top: 8,9vh;
   margin-left: 10vh;
   color: #ECB365;
 }
@@ -264,6 +264,7 @@ img.size{
 
 .workTitle{
   margin-top: 3%;
+  color: #ECB365;
 }
 
 .works{
