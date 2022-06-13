@@ -384,6 +384,9 @@ hr{
   margin-bottom: 5%;
 }
 
+a{
+  color: #FFF;
+}
 .icons{
   width: 2vw;
   float: left;
