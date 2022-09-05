@@ -247,6 +247,15 @@ img.size{
   box-shadow: 3px 3px black;
 }
 
+img.size1{
+  width: 70%;
+  height: 92%;
+  margin: 10px;
+  
+  border-radius: 15px;
+  box-shadow: 3px 3px black;
+}
+
 .workText{
   margin-right: 10%;
   margin-top: 5%;
