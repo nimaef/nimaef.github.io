@@ -90,6 +90,18 @@ a.linkedinicon.fab.fa-linkedin:hover{
   background: #343A40; 
 }
 
+@media only screen and (max-width: 821px) {
+  .navbar.navbar-expand.navbar-dark.bg-dark {
+    margin-left: -80px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .navbar.navbar-expand.navbar-dark.bg-dark{
+    margin-left: 100px;
+  }
+}
+
 
 /* navbar buttons*/
 .btn {
@@ -162,7 +174,7 @@ a.linkedinicon.fab.fa-linkedin:hover{
   opacity: 0.3;
 }
 
-@media only screen and (max-width: 786px){
+@media only screen and (max-width: 821px){
   .video-container{
     max-width: 100%;
   }
@@ -171,6 +183,31 @@ a.linkedinicon.fab.fa-linkedin:hover{
 .row{
   margin-left: 100px;
   margin-right: 100px;
+}
+
+/* responsiveness tablet */
+@media only screen and (max-width: 821px){
+  .colleft{
+    margin-left: -100px;
+    margin-top: -100px;
+  }
+  .colright{
+    margin-top: -80px;
+  }
+}
+
+/* responsiveness phone */
+@media only screen and (max-width: 480px){
+  .colleft{
+    width: 100%;
+  }
+  .colright{
+    width: 100%;
+  }
+  .fotome{
+    width: 100px!important;
+    height: auto;
+  }
 }
 
 .custom-margin-top{
@@ -215,8 +252,16 @@ a.linkedinicon.fab.fa-linkedin:hover{
   height: 100vh;
 }
 
+.noscroll{
+  overflow: hidden;
+}
+
 .row1{
   height: 700px;
+}
+
+.colleft{
+  padding-left: 75px;
 }
 
 p.textdesc{
@@ -248,12 +293,12 @@ p.textdesc{
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* work in progress text */
+/* work in progress text
 .soon{
   margin-top: 8,9vh;
   margin-left: 10vh;
   color: #ECB365;
-}
+} */
 
 /* rows for showing work */
 .myWork{
@@ -262,18 +307,18 @@ p.textdesc{
 }
 
 img.size{
-  width: 70%;
+  width: 90%;
   height: auto;
   margin: 10px;
-  border-radius: 2px;
+  display: block;
   box-shadow: 6px 6px rgba(0, 0, 0, 0.4);
 }
 
 img.size1{
-  width: 70%;
-  height: 92%;
+  width: 90%;
+  height: auto;
   margin: 10px;
-  border-radius: 2px;
+  display: block;
   box-shadow: 6px 6px rgba(0, 0, 0, 0.4);
 }
 
@@ -308,13 +353,37 @@ img.size1{
   border-radius: 3px;
   border: 3px solid #ECB365;
   width: 90%;
+  height: fit-content;
   color: white;
   box-shadow: rgba(0, 0, 0, 0.4) 6px 6px;
 }
 
+@media only screen and (max-width: 821px){
+  .works{
+    margin-left: 20px;
+    width: 95%;
+  }
+  .worktitle{
+    margin-left: 60px!important;
+  }
+  img.size{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  img.size1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 480px){
+
+}
+
 .worktitle{
-  margin-left: 50px;
+  margin-left: 245px;
   margin-top: 50px;
+  font-size: 48px!important;
 }
 
 h1{
@@ -331,6 +400,12 @@ h1{
   transition-duration: 0.2s;
 }
 
+.align{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
 hr{
   background-color: #ECB365;
   height: 3px;
@@ -339,7 +414,7 @@ hr{
 }
 
 .textsize{
-  font-size: 150%;
+  font-size: 20px;
 }
 
 .WAI{
@@ -349,25 +424,27 @@ hr{
 
 /* columns about me */
 .containerColls{
-  width: 900px;
-  margin: 0 auto;
+  width: 100%;
+  margin: auto auto;
+  display: flexbox;
 }
 
 .main-column{
   float: left;
-  margin-top: 3%;
-  margin-left: -3%;
-  width: 50vw;
-  border-left: 240px solid transparent;
+  margin-top: 150px;
+  margin-left: 150px;
+  width: 800px;
+  display: inline;
 }
 
 .sidebar{
   float: right;
-  width: 25vw;
+  width: 250px;
   height: 70vh;
-  margin-right: 25%;
+  margin-right: 250px;
   margin-top: 5%;
   position: relative;
+  display: inline;
 }
 
 .Abtme{
@@ -376,11 +453,29 @@ hr{
 }
 
 .fotome2{
-  width: 75%;
+  width: 100%;
   border-radius: 2px;
   border: 3px solid #ECB365;
+  margin-top: 40px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
-  margin-left: 10vw;
+}
+
+@media only screen and (max-width: 821px){
+  .main-column{
+    margin-left: 60px;
+    margin-right: 100px;
+    margin-top: 100px; 
+    width: 80%;
+  }
+  .Abtme{
+    font-size: 18px;
+  }
+  .fotome2{
+    width: 80%;
+  }
+  .containerColls{
+    overflow: hidden;
+  }
 }
 
 /* contact page */
@@ -401,6 +496,7 @@ hr{
   box-shadow: rgba(0, 0, 0, 0.4) 4px 4px;
 }
 
+
 .wwm{
   font-size: 300%;
   text-align: center;
@@ -419,6 +515,22 @@ hr{
   font-size: 230%;
   margin-left: 27vw;
   margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 821px){
+  .contactinfo{
+    margin-left: 75px;
+  }
+  .wwm{
+    font-size: 32px;
+  }
+  .wwm2{
+    font-size: 32px;
+  }
+  svg.icons{
+    width: 28px;
+    height: auto;
+  }
 }
 
 a{
