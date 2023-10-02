@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: #e3e3e3;
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+    text-shadow: 5px 5px 10px black;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
